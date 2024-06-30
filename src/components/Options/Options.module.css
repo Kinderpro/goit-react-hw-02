@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    gap: 15px;
+}
+.btn {
+   height: 20px;
+
+    color: rgb(202, 220, 236);
+    background-color: rgb(92, 92, 218);
+    border-radius: 2px;
+    border-style: none;
+}
