@@ -7,7 +7,7 @@ export default function Feedback({value, total, positiveFeedback}) {
       <p>Neutral: {value.neutral}</p>
       <p>Bad: {value.bad}</p>
       {total > 0 &&  <p>Total: {total}</p>}
-     {positiveFeedback > 0 &&  <p>Positive: {positiveFeedback}%</p>}
+       <p>Positive: {positiveFeedback}%</p>
      
     </div>
   );
